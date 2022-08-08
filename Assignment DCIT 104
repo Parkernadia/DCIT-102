@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() { 
+    int Q,num,p, sum=0;
+    count << "find sum of prime numbers upto:
+    cin >> Q
+    
+    for(num = 2; num<=Q; num+++) {
+        for(p = 2; p<= (num / 2) ; p++) {
+         
+          if(num % p == 0) {
+              p=num;
+              break;
+          
+     }
+   }
+   if(p != num) {
+       sum += num;
+     }
+   }
+   count << endl << "the sum of all prime numbers upto " << Q << " is " << sum;
+   return 0;
+   
